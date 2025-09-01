@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.concepts</groupId>
-  <artifactId>DesignPatterns</artifactId>
+  <artifactId>LLD</artifactId>
   <version>1.0-SNAPSHOT</version>
 
   <name>DesignPatterns</name>
@@ -46,6 +46,23 @@
           <version>RELEASE</version>
           <scope>test</scope>
       </dependency>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>RELEASE</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.kafka</groupId>
+      <artifactId>kafka-clients</artifactId>
+      <version>3.8.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-simple</artifactId>
+      <version>1.7.36</version>   <!-- must match slf4j-api -->
+    </dependency>
+
   </dependencies>
 
   <build>
